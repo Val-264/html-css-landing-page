@@ -4,11 +4,11 @@ const app = express();
 const PORT = 3000;
 
 // Serve the static files of the current folder
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'src')));
 
 // Main route to serve the index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'src', 'index.html'));
 });
 
 app.listen(PORT, () => {
