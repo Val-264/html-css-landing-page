@@ -1,0 +1,153 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: #007979;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.upper-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dddcdc;
+    padding: 8px 30px;
+
+    ul {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        list-style: none;
+    }
+     
+}
+
+.go-to-login-btn {
+    background-color: #007979;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 20px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.go-to-login-btn:hover {
+    background-color: #05c8c8;
+}
+
+/*================================================*/
+
+.introduction-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px 40px;
+    background-color:white;
+}
+
+.introduction-text {
+    flex: 1 1 320px;
+    max-width: 520px;
+
+    h2 {
+        margin-bottom: 16px;
+        color: black;
+        font-size:xx-large;
+    }
+    p {
+        margin-bottom: 24px;
+        color: #3f3e3e;
+        font-size: larger;
+    }
+    button {
+        font-weight: bold;
+        color: white;
+        background-color: #007979;
+        border: none;
+        border-radius: 4px;
+        padding: 12px 24px;
+        transition: background-color 0.5s;
+    }
+}
+
+.introduction-text button:hover {
+    background-color: #05c8c8;
+}
+
+.introduction-img {
+    flex: 1 1 320px;
+    max-width: 500px;
+    min-width: 0;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/*================================================*/
+
+.show-services {
+    padding: 24px 40px;
+    text-align: center;
+    background-color: #fcf9f9;
+
+    h3 {
+        margin-bottom: 16px;
+    }
+}
+
+.service-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+        display: block;
+    }
+
+    p {
+        padding: 16px 8px;
+        font-weight: bold;
+    }
+}
+
+/*================================================*/
+
+footer {
+    margin-top: auto;
+}
+
+.footer-menu {
+    padding: 16px 30px;
+    background-color: #dddcdc;
+    font-size: small;
+    justify-content: space-between;
+}
