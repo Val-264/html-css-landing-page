@@ -3,8 +3,16 @@
 ## Instrucciones para ejecutar:
 1. Clone el repositorio:
 2. Instale dependencias:
-   `npm install`
+```bash
+npm install
+```
+
 3. Inicie el servidor:
-   `npm start`
+```bash
+npm start
+```
+
 4. Abra la página en el navegador:
-   `http://localhost:3000`
+```bash
+http://localhost:3000
+```
