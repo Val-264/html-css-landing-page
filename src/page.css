@@ -143,11 +143,12 @@ a {
 
 footer {
     margin-top: auto;
+    background-color: #dddcdc; 
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-menu {
     padding: 16px 30px;
-    background-color: #dddcdc;
     font-size: small;
-    justify-content: space-between;
 }
